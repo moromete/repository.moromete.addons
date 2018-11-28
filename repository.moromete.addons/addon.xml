@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.moromete.addons" name="Moromete's Unofficial Repository" version="1.0.0">
+<addon id="repository.moromete.addons" name="Moromete's Repository" version="1.0.0">
 	<extension point="xbmc.addon.repository" name="Moromete's Repository">
 		<info compressed="false">https://moromete.github.io/moromete.kodi.repo/addons.xml</info>
 		<checksum>https://moromete.github.io/moromete.kodi.repo/addons.xml.md5</checksum>
