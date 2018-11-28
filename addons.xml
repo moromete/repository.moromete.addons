@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+  
+  <addon id="plugin.video.streams"
+         name="Streams"
+         version="0.5.7"
+         provider-name="Moromete">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0"/>
+      <import addon="script.module.pytz"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               defaultresolution="720p"
+               defaultresolutionwide="720p"
+               library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>
+        Radio/Tv Streams
+      </summary>
+      <description>
+        Radio/Tv Streams
+	- Watch internet video/audio streams (sopcast, acestream, http, rtmp, rtsp, mms ...) based on a remote channel list.
+	http://tvdot.tk
+      </description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+  
+  <addon id="plugin.audio.eteatru"
+        name="Eteatru"
+        version="1.0.0"
+        provider-name="Moromete">
+    <requires>
+      <import addon="xbmc.python" version="2.1.0"/>
+      <import addon="script.module.mutagen"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource"
+               library="default.py">
+      <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+      <summary>
+        Eteatru
+      </summary>
+      <description>
+        Eteatru
+        http://www.eteatru.ro
+      </description>
+      <platform>all</platform>
+    </extension>
+  </addon>
+
+</addons>
