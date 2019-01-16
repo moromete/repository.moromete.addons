@@ -3,7 +3,7 @@
   
   <addon id="plugin.video.streams"
          name="Streams"
-         version="2.0.7"
+         version="2.0.8"
          provider-name="Moromete">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
