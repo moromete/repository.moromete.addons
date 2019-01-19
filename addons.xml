@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-  
   <addon id="plugin.video.streams"
          name="Streams"
          version="2.0.8"
