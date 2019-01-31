@@ -78,5 +78,29 @@
       <platform>all</platform>
     </extension>
   </addon>
+  
+  <addon id="script.resource.mutagen" name="Mutagen" version="1.38.1" provider-name="robwebset">
+    <requires>
+      <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+      <summary lang="en">Mutagen - Python multimedia tagging library</summary>
+
+      <description lang="en">Mutagen is a Python module to handle audio metadata. For more information visit http://mutagen.readthedocs.org</description>
+
+      <language></language>
+      <platform>all</platform>
+      <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+      <forum>https://mutagen.readthedocs.io/</forum>
+      <news>Available from the URepo repository</news>
+      <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <banner>resources/banner.jpg</banner>
+        <logo>resources/logo.png</logo>
+      </assets>
+    </extension>
+  </addon>
 
 </addons>
