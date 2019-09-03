@@ -1,3 +1,16 @@
+v 2.0.12
+  1. improved acestream playback by adding feedback messages and fix continuous loading when playback is not possible
+
+v 2.0.11
+  1. fix sopcast offline notiffication
+
+v 2.0.10
+  1. fix offline detection of http streams
+  2. do not refresh list after marking channel online/offline
+
+v 2.0.9
+  1. fix bussy dialog for kodi 18
+
 v 2.0.8
   1. fix status exporting to be done before updating cahnnel list
 
