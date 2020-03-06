@@ -1,6 +1,10 @@
+v 0.1.1
+  1. remove html entities from epg
+  2. fix streams urls (stop adding protocol as prefix)
+
 v 0.1.0
   1. fix subscription error messages
-  
+
 v 0.0.6
   1. reset login if cookie is not valid anymore (can lead to to many devices linked into your account)
 
