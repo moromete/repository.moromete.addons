@@ -2,7 +2,7 @@
 <addons>
   <addon id="plugin.video.streams"
          name="Streams"
-         version="2.0.12"
+         version="2.0.13"
          provider-name="Moromete">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
@@ -56,7 +56,7 @@
 
   <addon id="plugin.video.digionline"
          name="DigiOnline"
-         version="0.1.0"
+         version="0.1.1"
          provider-name="Moromete">
     <requires>
       <import addon="xbmc.python" version="2.7.0"/>
