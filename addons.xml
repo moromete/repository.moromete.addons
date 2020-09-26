@@ -110,7 +110,7 @@
 
   <addon id="plugin.video.acestreamsearch"
          name="AcestreamSearch"
-         version="0.0.2"
+         version="0.0.3"
          provider-name="Moromete">
     <requires>
       <import addon="xbmc.python" version="2.26.0"/>
