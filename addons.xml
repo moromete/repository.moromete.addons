@@ -109,11 +109,11 @@
   </addon>
 
   <addon id="plugin.video.acestreamsearch"
-         name="AcestreamSearch"
-         version="0.0.3"
-         provider-name="Moromete">
+       name="AcestreamSearch"
+       version="0.1.0"
+       provider-name="Moromete">
     <requires>
-      <import addon="xbmc.python" version="2.26.0"/>
+      <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.beautifulsoup4"/>
     </requires>
     <extension point="xbmc.python.pluginsource"
@@ -128,8 +128,13 @@
         Acestream Search 
       </description>
       <platform>all</platform>
+      <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+      </assets>
     </extension>
   </addon>
+
   <addon id="service.cinemagia"
          name="Cinemagia service"
          version="0.0.3"

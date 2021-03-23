@@ -1,3 +1,12 @@
-v 0.0.1
+v 0.1.0
+  1. migrate to python 3 for kodi 19
+
+v 0.0.3
+  1. skip ad links from response
+
+v 0.0.2
+  1. refresh list after adress update
+  2. only update address for the channels with the same exact name
+
 v 0.0.1 (20.12.2019)
   1. first release
