@@ -1,3 +1,9 @@
+v 1.1.0
+  1. migrate to python 3 for kodi 19
+v 1.0.0
+  1. add collections menu
+v 0.0.6
+  1. catch error when downloading current item with an invalid url
 v 0.0.5
   1. fix json - clean special escaped chars ( e.g. \' ===> ' )
   2. mark with ID3 downloaded files

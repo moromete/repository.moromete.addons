@@ -31,15 +31,15 @@
   </addon>
   
   <addon id="plugin.audio.eteatru"
-        name="Eteatru"
-        version="1.0.0"
-        provider-name="Moromete">
+         name="Eteatru"
+         version="1.1.0"
+         provider-name="Moromete">
     <requires>
-      <import addon="xbmc.python" version="2.1.0"/>
+      <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.mutagen"/>
     </requires>
     <extension point="xbmc.python.pluginsource"
-               library="default.py">
+              library="default.py">
       <provides>audio</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -51,6 +51,10 @@
         http://www.eteatru.ro
       </description>
       <platform>all</platform>
+      <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+      </assets>
     </extension>
   </addon>
 
