@@ -2,7 +2,7 @@
   <addons>
     <addon id="plugin.video.digionline"
         name="DigiOnline"
-        version="0.3.3"
+        version="0.3.3" 
         provider-name="Moromete/Sile70000">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
