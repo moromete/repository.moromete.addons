@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.moromete.addons" name="Moromete's Repository" version="1.0.0">
-	<extension point="xbmc.addon.repository" name="Moromete's Repository">
-		<info compressed="false">https://moromete.github.io/repository.moromete.addons/addons.xml</info>
-		<checksum>https://moromete.github.io/repository.moromete.addons/addons.xml.md5</checksum>
-		<datadir zip="true">https://moromete.github.io/repository.moromete.addons/</datadir>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Add-ons that arn't in the official XBMC repository.</summary>
-		<description>Add-ons for XBMC, sometimes are a work in progress.</description>
-		<disclaimer></disclaimer>
-		<platform>all</platform>
-	</extension>
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.moromete.addons" name="Moromete's Repository" version="1.0.1">
+	<dir>
+		<extension point="xbmc.addon.repository" name="Moromete's Repository">
+			<info compressed="false">https://moromete.github.io/repository.moromete.addons/addons.xml</info>
+			<checksum>https://moromete.github.io/repository.moromete.addons/addons.xml.md5</checksum>
+			<datadir zip="true">https://moromete.github.io/repository.moromete.addons/</datadir>
+		</extension>
+	</dir>
 </addon>
