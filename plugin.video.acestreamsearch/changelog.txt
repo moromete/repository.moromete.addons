@@ -1,3 +1,6 @@
+v 0.2.0
+  1. migrate from deprecated api on port 62062 to new HTTP API on 6878
+  
 v 0.1.1
   1. fix xbmc.translatePath error
 
